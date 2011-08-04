@@ -19,7 +19,7 @@ NSString * const TI_APPLICATION_GUID = @"a5c88d6d-4b7b-4f71-9705-75a24de63287";
 BOOL const TI_APPLICATION_ANALYTICS = true;
 
 #ifdef TARGET_IPHONE_SIMULATOR
-NSString * const TI_APPLICATION_RESOURCE_DIR = @"/Users/jeffl/Documents/Titanium Studio Workspace/MissingOrWanted/Resources";
+NSString * const TI_APPLICATION_RESOURCE_DIR = @"/Users/sophrinix/Desktop/MissingOrWanted/Resources";
 #endif
 
 int main(int argc, char *argv[]) {

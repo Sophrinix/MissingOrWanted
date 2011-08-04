@@ -865,6 +865,13 @@
 		DABF3EDC134D2E4400836137 /* TiStreamProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DABF3EDB134D2E4300836137 /* TiStreamProxy.m */; };
 		DABF3EDD134D2E4400836137 /* TiStreamProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DABF3EDB134D2E4300836137 /* TiStreamProxy.m */; };
 		DABF3EDE134D2E4400836137 /* TiStreamProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DABF3EDB134D2E4300836137 /* TiStreamProxy.m */; };
+		DAC9D36A138DB2F8004917F8 /* module.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2464F96211AB996C001C035A /* module.xcconfig */; };
+		DAC9D36C138DB65C004917F8 /* debugger.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAC9D36B138DB65C004917F8 /* debugger.plist */; };
+		DAC9D36D138DB678004917F8 /* debugger.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAC9D36B138DB65C004917F8 /* debugger.plist */; };
+		DAC9D36E138DB67F004917F8 /* debugger.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAC9D36B138DB65C004917F8 /* debugger.plist */; };
+		DADD76E913CCF4FF00CD03AC /* MGSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = DADD76E813CCF4FF00CD03AC /* MGSplitView.m */; };
+		DADD76EA13CCF4FF00CD03AC /* MGSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = DADD76E813CCF4FF00CD03AC /* MGSplitView.m */; };
+		DADD76EB13CCF4FF00CD03AC /* MGSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = DADD76E813CCF4FF00CD03AC /* MGSplitView.m */; };
 		DAE541E313577BEC00A65123 /* TiDataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE541E213577BEC00A65123 /* TiDataStream.m */; };
 		DAE541E413577BEC00A65123 /* TiDataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE541E213577BEC00A65123 /* TiDataStream.m */; };
 		DAE541E513577BEC00A65123 /* TiDataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE541E213577BEC00A65123 /* TiDataStream.m */; };
@@ -872,7 +879,7 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* MissingOrWanted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissingOrWanted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* MissingOrWanted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MissingOrWanted.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2412F464115C296300454E5B /* TiMediaVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiMediaVideoPlayer.h; sourceTree = "<group>"; };
 		2412F465115C296300454E5B /* TiMediaVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiMediaVideoPlayer.m; sourceTree = "<group>"; };
@@ -1273,7 +1280,7 @@
 		24D0700411D0253D00F615D8 /* TiUIiOSProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiUIiOSProxy.h; sourceTree = "<group>"; };
 		24D0700511D0253D00F615D8 /* TiUIiOSProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiUIiOSProxy.m; sourceTree = "<group>"; };
 		24D5C75811E6364F00F097E2 /* libtiverify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiverify.a; path = lib/libtiverify.a; sourceTree = SOURCE_ROOT; };
-		24D8E4B1119B9D8A00F8CAA6 /* MissingOrWanted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissingOrWanted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D8E4B1119B9D8A00F8CAA6 /* MissingOrWanted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MissingOrWanted.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DD042A116A6C58006FD6E1 /* TiToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiToolbar.h; sourceTree = "<group>"; };
 		24DD042B116A6C58006FD6E1 /* TiToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiToolbar.m; sourceTree = "<group>"; };
 		24DD0455116A6F02006FD6E1 /* TiTabGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiTabGroup.h; sourceTree = "<group>"; };
@@ -1370,7 +1377,7 @@
 		24FBE5AD11293DD1005C8D48 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = Classes/CAXException.h; sourceTree = SOURCE_ROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* MissingOrWanted_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissingOrWanted_Prefix.pch; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MissingOrWanted_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MissingOrWanted_Prefix.pch"; sourceTree = "<group>"; };
 		4D3033A1136239B30034640F /* TiFilesystemFileStreamProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiFilesystemFileStreamProxy.h; sourceTree = "<group>"; };
 		4D3033A2136239B30034640F /* TiFilesystemFileStreamProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiFilesystemFileStreamProxy.m; sourceTree = "<group>"; };
 		B421C4101113AA9300DBCB42 /* TiUIScrollableViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiUIScrollableViewProxy.h; sourceTree = "<group>"; };
@@ -1458,13 +1465,16 @@
 		DABA10BE12E676A1007DD791 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
 		DABA10BF12E676A1007DD791 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
 		DABA10C012E676A1007DD791 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
-		DABB37BC12E8CB280026A6EA /* MissingOrWanted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissingOrWanted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABB37BC12E8CB280026A6EA /* MissingOrWanted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MissingOrWanted.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABF3ECD134D210400836137 /* TiBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiBuffer.h; sourceTree = "<group>"; };
 		DABF3ECE134D210400836137 /* TiBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiBuffer.m; sourceTree = "<group>"; };
 		DABF3ED5134D2CA100836137 /* StreamModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamModule.h; sourceTree = "<group>"; };
 		DABF3ED6134D2CA100836137 /* StreamModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamModule.m; sourceTree = "<group>"; };
 		DABF3EDA134D2E4300836137 /* TiStreamProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiStreamProxy.h; sourceTree = "<group>"; };
 		DABF3EDB134D2E4300836137 /* TiStreamProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiStreamProxy.m; sourceTree = "<group>"; };
+		DAC9D36B138DB65C004917F8 /* debugger.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = debugger.plist; path = Resources/debugger.plist; sourceTree = "<group>"; };
+		DADD76E713CCF4FF00CD03AC /* MGSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitView.h; sourceTree = "<group>"; };
+		DADD76E813CCF4FF00CD03AC /* MGSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitView.m; sourceTree = "<group>"; };
 		DAE541E113577BEC00A65123 /* TiDataStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiDataStream.h; sourceTree = "<group>"; };
 		DAE541E213577BEC00A65123 /* TiDataStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiDataStream.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1647,6 +1657,7 @@
 				24CA8A0A111161DC0084E2DE /* Utils */,
 				24CA8A0B111161E10084E2DE /* API */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -2687,6 +2698,7 @@
 				2464F96211AB996C001C035A /* module.xcconfig */,
 				2478B2A311C447A4005814DF /* ApplicationMods.h */,
 				2478B2A411C447A4005814DF /* ApplicationMods.m */,
+				DAC9D36B138DB65C004917F8 /* debugger.plist */,
 				24F29E3612209E6F0099351D /* stylesheet.plist */,
 			);
 			name = "Other Sources";
@@ -2752,6 +2764,8 @@
 				B440EF7B1209DC400045FEAE /* MGSplitDividerView.m */,
 				B440EF7C1209DC400045FEAE /* MGSplitViewController.h */,
 				B440EF7D1209DC400045FEAE /* MGSplitViewController.m */,
+				DADD76E713CCF4FF00CD03AC /* MGSplitView.h */,
+				DADD76E813CCF4FF00CD03AC /* MGSplitView.m */,
 			);
 			name = MGSplitView;
 			path = Classes/MGSplitView;
@@ -2856,7 +2870,7 @@
 			);
 			dependencies = (
 			);
-			name = MissingOrWanted;
+			name = "MissingOrWanted";
 			productName = MissingOrWanted;
 			productReference = 1D6058910D05DD3D006BFB54 /* MissingOrWanted.app */;
 			productType = "com.apple.product-type.application";
@@ -2931,7 +2945,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CA9183111170820084E2DE /* Default.png in Resources */,
+				DAC9D36A138DB2F8004917F8 /* module.xcconfig in Resources */,
 				24F29E3812209E6F0099351D /* stylesheet.plist in Resources */,
+				DAC9D36E138DB67F004917F8 /* debugger.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2942,6 +2958,7 @@
 				24D8E3B7119B9D8A00F8CAA6 /* Default.png in Resources */,
 				2464F96411AB996C001C035A /* module.xcconfig in Resources */,
 				24F29E3712209E6F0099351D /* stylesheet.plist in Resources */,
+				DAC9D36D138DB678004917F8 /* debugger.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2952,6 +2969,7 @@
 				DABB369C12E8CB280026A6EA /* Default.png in Resources */,
 				DABB369D12E8CB280026A6EA /* module.xcconfig in Resources */,
 				DABB369E12E8CB280026A6EA /* stylesheet.plist in Resources */,
+				DAC9D36C138DB65C004917F8 /* debugger.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2970,8 +2988,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"/Library/Application Support/Titanium/mobilesdk/osx/1.7.0.RC1/iphone/builder.py\" xcode\nexit $?";
-		};
+			shellScript = "\"/Library/Application Support/Titanium/mobilesdk/osx/1.7.2/iphone/builder.py\" xcode\nexit $?";
+                };
 		24CA8D03111169070084E2DE /* Post-Compile */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2985,7 +3003,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "echo 'post-compile'";
-		};
+                };
 		24D8E3B9119B9D8A00F8CAA6 /* Pre-Compile */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2998,8 +3016,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"/Library/Application Support/Titanium/mobilesdk/osx/1.7.0.RC1/iphone/builder.py\" xcode\nexit $?";
-		};
+			shellScript = "\"/Library/Application Support/Titanium/mobilesdk/osx/1.7.2/iphone/builder.py\" xcode\nexit $?";
+                };
 		24D8E4AD119B9D8A00F8CAA6 /* Post-Compile */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3013,7 +3031,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "echo 'post-compile'";
-		};
+                };
 		DABB369F12E8CB280026A6EA /* Pre-Compile */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3026,8 +3044,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"/Library/Application Support/Titanium/mobilesdk/osx/1.7.0.RC1/iphone/builder.py\" xcode\nexit $?";
-		};
+			shellScript = "\"/Library/Application Support/Titanium/mobilesdk/osx/1.7.2/iphone/builder.py\" xcode\nexit $?";
+                };
 		DABB37B812E8CB280026A6EA /* Post-Compile */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3041,7 +3059,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "echo 'post-compile'";
-		};
+                };
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -3310,6 +3328,7 @@
 				DA2556441353D2FC005D459C /* TiNetworkSocketProxy.m in Sources */,
 				DAE541E313577BEC00A65123 /* TiDataStream.m in Sources */,
 				4D3033A3136239B30034640F /* TiFilesystemFileStreamProxy.m in Sources */,
+				DADD76E913CCF4FF00CD03AC /* MGSplitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3578,6 +3597,7 @@
 				DA2556451353D2FC005D459C /* TiNetworkSocketProxy.m in Sources */,
 				DAE541E413577BEC00A65123 /* TiDataStream.m in Sources */,
 				B415067A136745E20084074A /* TiFilesystemFileStreamProxy.m in Sources */,
+				DADD76EA13CCF4FF00CD03AC /* MGSplitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3846,6 +3866,7 @@
 				DA2556461353D2FC005D459C /* TiNetworkSocketProxy.m in Sources */,
 				DAE541E513577BEC00A65123 /* TiDataStream.m in Sources */,
 				B415067D136745FE0084074A /* TiFilesystemFileStreamProxy.m in Sources */,
+				DADD76EB13CCF4FF00CD03AC /* MGSplitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3862,9 +3883,8 @@
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MissingOrWanted_Prefix.pch;
+				GCC_PREFIX_HEADER = "MissingOrWanted_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
@@ -3872,7 +3892,7 @@
 					"\"$(SRCROOT)/../../../../tmp/staticlib/build/Debug-iphonesimulator\"",
 					"\"$(SRCROOT)/../../../tijs/TiCore/TiCore/build/Release-iphonesimulator\"",
 				);
-				"OTHER_LDFLAGS[sdk=iphoneos4*]" = (
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
 					"$(inherited)",
 					"-weak_framework",
 					iAd,
@@ -3881,12 +3901,12 @@
 					"-weak_framework",
 					CoreVideo,
 				);
-				"OTHER_LDFLAGS[sdk=iphonesimulator4*]" = (
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
 					"$(inherited)",
 					"-weak_framework",
 					iAd,
 				);
-				PRODUCT_NAME = MissingOrWanted;
+				PRODUCT_NAME = "MissingOrWanted";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -3898,9 +3918,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MissingOrWanted_Prefix.pch;
+				GCC_PREFIX_HEADER = "MissingOrWanted_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
@@ -3908,7 +3927,7 @@
 					"\"$(SRCROOT)/../../../../tmp/staticlib/build/Debug-iphonesimulator\"",
 					"\"$(SRCROOT)/../../../tijs/TiCore/TiCore/build/Release-iphonesimulator\"",
 				);
-				"OTHER_LDFLAGS[sdk=iphoneos4*]" = (
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
 					"$(inherited)",
 					"-weak_framework",
 					iAd,
@@ -3917,7 +3936,7 @@
 					"-weak_framework",
 					CoreVideo,
 				);
-				PRODUCT_NAME = MissingOrWanted;
+				PRODUCT_NAME = "MissingOrWanted";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -3933,7 +3952,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MissingOrWanted_Prefix.pch;
+				GCC_PREFIX_HEADER = "MissingOrWanted_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				LIBRARY_SEARCH_PATHS = (
@@ -3947,7 +3966,7 @@
 					"-DTI_POST_1_2",
 					"-DDEBUG",
 				);
-				"OTHER_LDFLAGS[sdk=iphoneos4*]" = (
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
 					"$(inherited)",
 					"-weak_framework",
 					iAd,
@@ -3956,7 +3975,7 @@
 					"-weak_framework",
 					CoreVideo,
 				);
-				PRODUCT_NAME = MissingOrWanted;
+				PRODUCT_NAME = "MissingOrWanted";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = "armv6 armv7 i386";
 			};
@@ -3970,7 +3989,7 @@
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MissingOrWanted_Prefix.pch;
+				GCC_PREFIX_HEADER = "MissingOrWanted_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				LIBRARY_SEARCH_PATHS = (
@@ -3983,7 +4002,7 @@
 					"-DIPAD",
 					"-DTI_POST_1_2",
 				);
-				"OTHER_LDFLAGS[sdk=iphoneos4*]" = (
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
 					"$(inherited)",
 					"-weak_framework",
 					iAd,
@@ -3992,7 +4011,7 @@
 					"-weak_framework",
 					CoreVideo,
 				);
-				PRODUCT_NAME = MissingOrWanted;
+				PRODUCT_NAME = "MissingOrWanted";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv6 armv7 i386";
@@ -4003,7 +4022,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 241EAEC5118E2BA90081A5BE /* project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					armv6,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -4022,7 +4045,7 @@
 					"${SDKROOT}/usr/include/libxml2",
 					headers,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
@@ -4041,7 +4064,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 241EAEC5118E2BA90081A5BE /* project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					armv6,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -4060,7 +4087,7 @@
 					"${SDKROOT}/usr/include/libxml2",
 					headers,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
@@ -4077,12 +4104,11 @@
 			baseConfigurationReference = 241EAEC5118E2BA90081A5BE /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MissingOrWanted_Prefix.pch;
+				GCC_PREFIX_HEADER = "MissingOrWanted_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
 				LIBRARY_SEARCH_PATHS = (
@@ -4096,7 +4122,7 @@
 					"-DTI_POST_1_2",
 					"-DDEBUG",
 				);
-				"OTHER_LDFLAGS[sdk=iphoneos4*]" = (
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
 					"$(inherited)",
 					"-weak_framework",
 					iAd,
@@ -4105,7 +4131,7 @@
 					"-weak_framework",
 					CoreMedia,
 				);
-				PRODUCT_NAME = MissingOrWanted;
+				PRODUCT_NAME = "MissingOrWanted";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv6 armv7 i386";
 			};
@@ -4116,10 +4142,9 @@
 			baseConfigurationReference = 241EAEC5118E2BA90081A5BE /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MissingOrWanted_Prefix.pch;
+				GCC_PREFIX_HEADER = "MissingOrWanted_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
 				LIBRARY_SEARCH_PATHS = (
@@ -4132,7 +4157,7 @@
 					"-DIPAD",
 					"-DTI_POST_1_2",
 				);
-				"OTHER_LDFLAGS[sdk=iphoneos4*]" = (
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
 					"$(inherited)",
 					"-weak_framework",
 					iAd,
@@ -4141,7 +4166,7 @@
 					"-weak_framework",
 					CoreMedia,
 				);
-				PRODUCT_NAME = MissingOrWanted;
+				PRODUCT_NAME = "MissingOrWanted";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv6 armv7 i386";

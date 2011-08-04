@@ -812,8 +812,12 @@ static TiValueRef StringFormatDecimalCallback (TiContextRef jsContext, TiObjectR
 
 -(BOOL)isKJSThread
 {
+#if 1
+	return (cachedThreadId == [NSThread currentThread] ? YES : NO);
+#else
 	NSString *name = [[NSThread currentThread] name];
 	return [name isEqualToString:[self threadName]];
+#endif
 }
 
 -(void)invoke:(id)object
@@ -943,6 +947,7 @@ static TiValueRef StringFormatDecimalCallback (TiContextRef jsContext, TiObjectR
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	[[NSThread currentThread] setName:[self threadName]];
+	cachedThreadId = [NSThread currentThread];
 	pthread_rwlock_rdlock(&KrollGarbageCollectionLock);
 //	context = TiGlobalContextCreateInGroup([TiApp contextGroup],NULL);
 	context = TiGlobalContextCreate(NULL);
@@ -1111,6 +1116,8 @@ static TiValueRef StringFormatDecimalCallback (TiContextRef jsContext, TiObjectR
 			// don't hold the queue lock
 			// while we're processing an event so we 
 			// can't deadlock on recursive callbacks
+             // removeObjectAtIndex sends an 'autorelease' message, so we need to drain the pool in the queue loop, NOT the invoke
+            NSAutoreleasePool* pool_ = [[NSAutoreleasePool alloc] init];
 			id entry = nil;
 			[lock lock];
 #if CONTEXT_DEBUG == 1	
@@ -1122,7 +1129,8 @@ static TiValueRef StringFormatDecimalCallback (TiContextRef jsContext, TiObjectR
 			}
 			else 
 			{
-				entry = [queue objectAtIndex:0];
+				entry = [[queue objectAtIndex:0] retain];
+				[queue removeObjectAtIndex:0]; 
 			}
 			[lock unlock];
 			if (entry!=nil)
@@ -1132,9 +1140,7 @@ static TiValueRef StringFormatDecimalCallback (TiContextRef jsContext, TiObjectR
 #if CONTEXT_DEBUG == 1	
 					NSLog(@"CONTEXT<%@>: before action event invoke: %@, queue size: %d",self,entry,queueSize-1);
 #endif
-					NSAutoreleasePool *pool_ = [[NSAutoreleasePool alloc] init];
 					[self invoke:entry];
-					[pool_ drain];
 #if CONTEXT_DEBUG == 1	
 					NSLog(@"CONTEXT<%@>: after action event invoke: %@",self,entry);
 #endif
@@ -1147,11 +1153,11 @@ static TiValueRef StringFormatDecimalCallback (TiContextRef jsContext, TiObjectR
 				}
 				@finally 
 				{
-					[lock lock];
-					[queue removeObjectAtIndex:0];
-					[lock unlock];
+					[entry release];
+					entry = nil;
 				}				
 			}
+            [pool_ drain];
 		}
 
 		// TODO: experiment, attempt to collect more often than usual given our environment
